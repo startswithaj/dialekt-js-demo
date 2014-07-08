@@ -1,0 +1,145 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: #ffffff;
+    margin: 20px;
+    padding: 0;
+}
+
+div.container {
+    text-align: left;
+    margin: auto;
+    width: 760px;
+    background: #336699;
+    padding: 1px 0px;
+    border-radius: 16px;
+}
+
+input, button {
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background: #efefef;
+    padding: 7px;
+    margin: 5px 0px;
+}
+
+input[type="text"] {
+    width: 660px;
+    outline: none;
+    font-family: "Andale Mono", "Menlo", "Monaco", "Courier New", monospace;
+}
+
+#submit {
+    width: 200px;
+    margin-left: 475px;
+    background: #afafaf;
+}
+
+section {
+    margin: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #87afef;
+}
+
+a:hover {
+    color: #ff9804;
+}
+
+h1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 22px;
+    padding: 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+p, ul {
+    margin: 20px 0 5px 0;
+    color: #404040;
+}
+
+.syntax-tree {
+    padding: 0;
+    color: #404040;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Andale Mono", "Menlo", "Monaco", "Courier New", monospace;
+    margin-left: -17px;
+}
+
+.syntax-tree ul {
+    margin: 0;
+    padding: 0;
+}
+
+.syntax-tree li {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 22px;
+    list-style-type: none;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.node-status {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.node-label {
+    font-weight: bold;
+}
+
+.node-data, .node-result {
+    color: #404040;
+    margin-left: 5px;
+}
+
+.node-result {
+    display: block;
+    float: right;
+    font-size: 11px;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin: 0;
+    padding: 5px;
+    margin: 5px;
+    color: #404040;
+    font-size: 15px;
+    font-family: "Andale Mono", "Menlo", "Monaco", "Courier New", monospace;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.success {
+    color: #00bb20;
+}
+
+.error {
+    color: #ff4000;
+}
+
+
+#error, 
+#normalised-expression, 
+#syntax-tree {
+    display: none;
+}
